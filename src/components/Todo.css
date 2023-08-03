@@ -1,0 +1,40 @@
+.container-common-ui {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 5px;
+}
+
+.children-display {
+  text-align: center;
+  align-items: center; /* Vertically center the content */
+
+  display: flex;
+  width: 200px;
+  border: 1px dashed black;
+}
+
+.children-display-active {
+  display: flex;
+  width: 200px;
+  border: 2px solid red;
+}
+
+.children-display-input {
+  border: none;
+  outline: none;
+}
+
+.children-display-input:focus {
+  border: none;
+  outline: none;
+}
+
+.buttons {
+  height: 100%;
+  width: 100%;
+}
+
+.container-common-ui-footer {
+  margin-bottom: 20px;
+}
